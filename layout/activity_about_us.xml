@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/applogo"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About SkillSwap"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:paddingBottom="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What is SkillSwap?"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SkillSwap is an innovative platform designed to connect people who want to exchange skills and learn from each other. Whether you're a programmer looking to learn photography or a musician interested in graphic design, SkillSwap helps you find the right match to grow your expertise."
+            android:textSize="16sp"
+            android:paddingTop="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Key Features"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="✔ Skill Swapping – Connect with users to exchange skills.\n✔ Community Groups – Join or create groups based on skills.\n✔ Real-Time Chat – Message users instantly.\n✔ Group Discussions – Engage in topic-based discussions.\n✔ Search and Explore – Find users with matching skills.\n✔ Secure and Reliable – Built with Firebase Authentication."
+            android:textSize="16sp"
+            android:paddingTop="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Our Mission"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="At SkillSwap, we believe learning should be accessible to everyone. We created this platform to:\n\n✅ Make skill learning free and collaborative\n✅ Foster a strong, supportive learning community\n✅ Encourage knowledge-sharing among people worldwide\n\nNo matter your background or location, SkillSwap empowers you to learn, teach, and grow together."
+            android:textSize="16sp"
+            android:paddingTop="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Meet the Team"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Mantra Patel\n• Sai More\n• Om Patel\n• Het Joshi"
+            android:textSize="16sp"
+            android:paddingTop="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="12sp"
+            android:text="Version 1.0.0"/>
+
+    </LinearLayout>
+</ScrollView>

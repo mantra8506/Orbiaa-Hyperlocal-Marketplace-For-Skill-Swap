@@ -1,0 +1,278 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#FFFFFF"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/rif2smgwy38f"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/cr45bfff7d4"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:paddingTop="50dp"
+        android:paddingRight="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipChildren="false"
+            android:layout_gravity="center"
+            android:clipToPadding="false"
+            android:orientation="vertical">
+
+            <!-- Title Section -->
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="26dp"
+                android:layout_marginBottom="9dp"
+                android:layout_marginTop="500dp"
+                android:text="Personal Details"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/subtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginBottom="49dp"
+                android:layout_marginTop="2dp"
+                android:text="Provide your personal details to enhance your Skill Swap experience and connect with like-minded individuals."
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <!-- Occupation Section -->
+            <TextView
+                android:id="@+id/rlzf16pmgsa8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginBottom="5dp"
+                android:text="Occupation*"
+                android:textColor="#000000"
+                android:textSize="17sp" />
+
+            <EditText
+                android:id="@+id/occupation"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginBottom="38dp"
+                android:background="@drawable/s000000sw2cr10bfbeaa0"
+                android:hint="Enter your occupation"
+                android:inputType="text"
+                android:paddingHorizontal="12dp"
+                android:paddingVertical="10dp"
+                android:textColor="#000000"
+                android:textSize="17sp" />
+
+            <!-- Skill Owned Section -->
+            <TextView
+                android:id="@+id/rc5e16jnwymh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginBottom="5dp"
+                android:text="Skill Owned*"
+                android:textColor="#000000"
+                android:textSize="17sp" />
+
+            <EditText
+                android:id="@+id/skill"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginBottom="38dp"
+                android:background="@drawable/s000000sw2cr10bfbeaa0"
+                android:hint="Web developer, Fitness Coach, etc."
+                android:inputType="text"
+                android:paddingHorizontal="12dp"
+                android:paddingVertical="19dp"
+                android:textColor="#525252"
+                android:textSize="14sp" />
+
+            <!-- Experience Section -->
+            <TextView
+                android:id="@+id/rbfe3ly2vrrk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginBottom="5dp"
+                android:text="Experience*"
+                android:textColor="#000000"
+                android:textSize="17sp" />
+
+            <EditText
+                android:id="@+id/rexperience"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginBottom="38dp"
+                android:background="@drawable/s000000sw2cr10bfbeaa0"
+                android:baselineAligned="false"
+                android:hint="Enter your years of experience"
+                android:inputType="number"
+                android:paddingHorizontal="12dp"
+                android:paddingVertical="19dp"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <!-- Location Section -->
+            <TextView
+                android:id="@+id/rkke9kp6bg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginBottom="5dp"
+                android:text="Location*"
+                android:textColor="#000000"
+                android:textSize="17sp" />
+
+            <EditText
+                android:id="@+id/rlocation"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginBottom="53dp"
+                android:background="@drawable/s000000sw2cr10bfbeaa0"
+                android:hint="Enter your location"
+                android:inputType="text"
+                android:paddingHorizontal="12dp"
+                android:paddingVertical="19dp"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:text="Work Link*"
+                android:textColor="#000000"
+                android:textSize="17sp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginStart="24dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+
+            <EditText
+                android:id="@+id/rwl"
+                android:hint="E.x. LinkedIn Profile: [Enter your LinkedIn profile URL]"
+                android:inputType="text"
+                android:textColor="#525252"
+                android:textSize="14sp"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:background="@drawable/s000000sw2cr10bfbeaa0"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginBottom="38dp"
+                android:paddingVertical="19dp"
+                android:paddingHorizontal="12dp" />
+
+            <!-- Description Section -->
+            <TextView
+                android:id="@+id/rd"
+                android:text="Description*"
+                android:textColor="#000000"
+                android:textSize="17sp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginStart="24dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+
+            <TextView
+                android:text="50/100 words"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginBottom="5dp" />
+
+            <EditText
+                android:id="@+id/rdescription"
+                android:hint="Add something about yourself..."
+                android:inputType="textMultiLine"
+                android:textColor="#555555"
+                android:textSize="14sp"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/s000000sw2cr10bfbeaa0"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginBottom="38dp"
+                android:paddingVertical="19dp"
+                android:paddingHorizontal="12dp" />
+
+            <!-- Achievements Section -->
+            <TextView
+                android:id="@+id/rachievements"
+                android:text="Achievements*"
+                android:textColor="#000000"
+                android:textSize="17sp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginStart="24dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+
+            <EditText
+                android:id="@+id/rachievemnets"
+                android:hint="Add your achievements..."
+                android:inputType="textMultiLine"
+                android:textColor="#555555"
+                android:textSize="14sp"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/s000000sw2cr10bfbeaa0"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginBottom="38dp"
+                android:paddingVertical="19dp"
+                android:paddingHorizontal="12dp" />
+
+            <!-- Button Section -->
+            <LinearLayout
+                android:id="@+id/r2niugnx4zdf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="160dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/rdifbchqjpwa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/s8e8383sw1cr10b4c3d3d"
+                    android:clickable="true"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:elevation="4dp"
+                    android:focusable="true"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:paddingVertical="1dp">
+
+
+
+                    <Button
+                        android:id="@+id/submit_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/rounded_background"
+                        android:text="Submit" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

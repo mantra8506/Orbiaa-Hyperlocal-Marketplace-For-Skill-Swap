@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/cream">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/baseline_arrow_back_24" />
+
+        <!-- User Name & Stats -->
+        <TextView
+            android:id="@+id/userProfileName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="James Smith"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="4dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="❤️ 3K+"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:layout_marginEnd="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="⚡ 60+"
+                android:textSize="14sp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <!-- Swap & Message Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/btnSwap"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Request For SWAP"
+                android:backgroundTint="@color/dark_brown"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+        <!-- About Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="About "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/black"
+            android:layout_marginBottom="8dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <!--Phone Section-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Phone : "
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/mobileTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="📞 030-29843-74598"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            </LinearLayout>
+
+
+            <!--Email Section-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email : "
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/emailTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="✉️ dubeylakshya00@gmail.com"
+                android:textSize="16sp"
+                android:textColor="@color/black"/>
+
+            </LinearLayout>
+
+            <!--WorkLink Section-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WorkLink : "
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/workLinkTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🔗 https://www.linkedin.com/feed/"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:textStyle="italic"
+                    android:autoLink="web"
+                    android:clickable="true"/>
+
+
+            </LinearLayout>
+
+            <!-- Skill Section -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Skill : "
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/skillTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Android"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:textStyle="italic"/>
+            </LinearLayout>
+
+            <!-- Experience Section -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="4dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Experience : "
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/experienceTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="One Year"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:textStyle="italic"/>
+            </LinearLayout>
+
+            <!-- Location Section -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="4dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Location : "
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/locationTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="India"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:textStyle="italic"/>
+            </LinearLayout>
+
+            <!-- Occupation Section -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="4dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Occupation : "
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/occupationTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Developer"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:textStyle="italic"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Description Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description "
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/black"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/descriptionTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I am a highly skilled musician with over 8 years of experience..."
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"/>
+
+        <!-- Achievements Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Achievements 🏆"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/black"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/achievementsTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Released two successful albums\n• Awarded 'Best Soundtrack' at XYZ Film Festival\n• Collaborated with top artists"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"/>
+
+
+    </LinearLayout>
+</ScrollView>

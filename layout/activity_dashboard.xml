@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <!-- Main Content Layout -->
+  <LinearLayout
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:visibility="visible">
+
+    <ScrollView
+        android:id="@+id/rusmy5lkwri"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/cr45bfff7d4">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+
+        <!-- Header Section -->
+        <LinearLayout
+            android:id="@+id/r47usgga1r06"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="39dp"
+            android:background="#B79552"
+            android:elevation="9dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingHorizontal="36dp"
+            android:paddingVertical="30dp">
+
+          <ImageView
+              android:id="@+id/r8mahpbbxfk5"
+              android:layout_width="30dp"
+              android:layout_height="30dp"
+              android:scaleType="fitXY"
+              android:src="@drawable/hamburger" />
+
+
+          <LinearLayout
+              android:id="@+id/rbwe7r9hrhvm"
+              android:layout_width="0dp"
+              android:layout_height="match_parent"
+              android:layout_weight="1"
+              android:orientation="vertical" />
+
+          <ImageView
+              android:id="@+id/searchBtn"
+              android:layout_width="30dp"
+              android:layout_height="30dp"
+              android:scaleType="fitXY"
+              android:src="@drawable/search" />
+
+          <!-- Navigation Drawer -->
+
+
+        </LinearLayout>
+
+        <!-- Title Section -->
+
+        <TextView
+            android:id="@+id/rkbrvigxgju"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginBottom="23dp"
+            android:text="Swap, learn, grow"
+            android:textColor="#001029"
+            android:textSize="27sp" />
+
+        <!-- Card Section -->
+        <LinearLayout
+            android:id="@+id/ru6hlrvty19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="18dp"
+            android:layout_marginBottom="36dp"
+            android:orientation="vertical">
+
+          <LinearLayout
+              android:id="@+id/rtqbknatdw5n"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_marginHorizontal="4dp"
+              android:background="@drawable/cr21bffd95a"
+              android:orientation="vertical"
+              android:paddingHorizontal="21dp"
+              android:paddingVertical="16dp">
+
+            <LinearLayout
+                android:id="@+id/r5z6riqd90hj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="19dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+              <TextView
+                  android:id="@+id/r4dn30rhvwy3"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginEnd="4dp"
+                  android:layout_weight="1"
+                  android:text="Most Collaborated"
+                  android:textColor="#000000"
+                  android:textSize="16sp" />
+
+              <ImageView
+                  android:id="@+id/rw4k7ss22zkj"
+                  android:layout_width="54dp"
+                  android:layout_height="45dp"
+                  android:layout_marginEnd="3dp"
+                  android:scaleType="fitXY"
+                  android:src="@drawable/baseline_people_alt_24" />
+
+              <TextView
+                  android:id="@+id/rtc468o6e9x"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginEnd="1dp"
+                  android:text="100"
+                  android:textColor="#000000"
+                  android:textSize="16dp" />
+
+              <ImageView
+                  android:id="@+id/rcqe2bfkqedv"
+                  android:layout_width="4dp"
+                  android:layout_height="4dp"
+                  android:scaleType="fitXY"
+                  android:src="@mipmap/ic_launcher" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/r413flvpmrw6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:layout_weight="1"
+                android:text="Discover the most accomplished and influential professionals"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:id="@+id/rrgbaa6s811p"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+              <ImageView
+                  android:id="@+id/rotv43122nu"
+                  android:layout_width="20dp"
+                  android:layout_height="20dp"
+                  android:layout_marginEnd="10dp"
+                  android:scaleType="fitXY"
+                  android:src="@drawable/baseline_notifications_24" />
+
+              <TextView
+                  android:id="@+id/r2ianxfsflrn"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginEnd="10dp"
+                  android:text="20k+"
+                  android:textColor="#000000"
+                  android:textSize="13sp" />
+
+              <ImageView
+                  android:id="@+id/r3u6945zy7ka"
+                  android:layout_width="20dp"
+                  android:layout_height="20dp"
+                  android:layout_marginEnd="10dp"
+                  android:scaleType="fitXY"
+                  android:src="@drawable/baseline_swap_horiz_24" />
+
+              <TextView
+                  android:id="@+id/r4qtklo66w7v"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginEnd="10dp"
+                  android:text="500+"
+                  android:textColor="#000000"
+                  android:textSize="13sp" />
+            </LinearLayout>
+          </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+          <LinearLayout
+              android:id="@+id/rz77vlip830d"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginHorizontal="19dp"
+              android:layout_marginBottom="20dp"
+              android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/rl5fre42aj2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Free Learning"
+                android:textColor="#001029"
+                android:textSize="27sp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/raj28fewteod"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:text="See more"
+                android:textColor="#001029" />
+          </LinearLayout>
+
+          <RelativeLayout
+              android:id="@+id/r6lrz3sf76a8"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginHorizontal="17dp"
+              android:layout_marginBottom="31dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+              <LinearLayout
+                  android:id="@+id/rr8g10y8jzs"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/thumnail1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/cr21bffffff"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="25dp"
+                    android:paddingTop="180dp"
+                    android:paddingBottom="11dp">
+
+                  <LinearLayout
+                      android:id="@+id/r06f3qf8ardut"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginBottom="12dp"
+                      android:gravity="center_vertical"
+                      android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/r34b3a1mcuyn"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="4dp"
+                        android:layout_weight="1"
+                        android:text="21,390 students"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/rwcwqff93ozb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10 h 26m"
+                        android:textColor="#575757"
+                        android:textSize="13sp" />
+                  </LinearLayout>
+
+                  <TextView
+                      android:id="@+id/r1s7041z20hg"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginBottom="12dp"
+                      android:text="Learn UI/UX Design, Figma, and Prototyping"
+                      android:textColor="#001029"
+                      android:textSize="19sp" />
+
+                  <LinearLayout
+                      android:id="@+id/r6cjmhgr8etw"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:gravity="center_vertical"
+                      android:orientation="horizontal">
+
+                    <View
+                        android:id="@+id/rf0o4mkwuoj"
+                        android:layout_width="5dp"
+                        android:layout_height="1dp"
+                        android:layout_marginEnd="8dp"
+                        android:background="#575757" />
+
+                    <TextView
+                        android:id="@+id/rstkqtll7c7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Click here to Explore"
+                        android:textColor="#575757"
+                        android:textSize="13sp" />
+
+                    <View
+                        android:id="@+id/rmjci4qrarrg"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:id="@+id/r4cgj53f4f4a"
+                        android:layout_width="12dp"
+                        android:layout_height="18dp"
+                        android:scaleType="fitXY"
+                        android:src="@mipmap/ic_launcher" />
+                  </LinearLayout>
+                </LinearLayout>
+              </LinearLayout>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/rwcpo32hrmn"
+                android:layout_width="360dp"
+                android:layout_height="170dp"
+                android:layout_margin="5dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="-3dp"
+                android:background="@drawable/cr21bffd95a"
+                android:orientation="vertical"
+                android:paddingHorizontal="20dp">
+
+              <com.google.android.material.imageview.ShapeableImageView
+                  android:id="@+id/rjdsrqnjrc7"
+                  android:layout_width="326dp"
+                  android:layout_height="165dp"
+                  android:layout_marginTop="4dp"
+                  android:scaleType="fitXY"
+                  android:src="@drawable/thumnail"
+                  app:shapeAppearanceOverlay="@style/cr16" />
+            </LinearLayout>
+          </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginHorizontal="19dp"
+              android:layout_marginBottom="20dp"
+              android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Join Community"
+                android:textColor="#001029"
+                android:textSize="27sp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+          </LinearLayout>
+
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginHorizontal="17dp"
+              android:layout_marginBottom="31dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/thumnail2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/cr21bffffff"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="25dp"
+                    android:paddingTop="180dp"
+                    android:paddingBottom="11dp">
+
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginBottom="12dp"
+                      android:gravity="center_vertical"
+                      android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="4dp"
+                        android:layout_weight="1"
+                        android:text="21,390 students"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10 h 26m"
+                        android:textColor="#575757"
+                        android:textSize="13sp" />
+                  </LinearLayout>
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginBottom="12dp"
+                      android:text="Create or Join the Community for Classes and Events Advertisements"
+                      android:textColor="#001029"
+                      android:textSize="19sp" />
+
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:gravity="center_vertical"
+                      android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="1dp"
+                        android:layout_marginEnd="8dp"
+                        android:background="#575757" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Click here to view Community"
+                        android:textColor="#575757"
+                        android:textSize="13sp" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:layout_width="12dp"
+                        android:layout_height="18dp"
+                        android:scaleType="fitXY"
+                        android:src="@mipmap/ic_launcher" />
+                  </LinearLayout>
+                </LinearLayout>
+              </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="360dp"
+                android:layout_height="170dp"
+                android:layout_margin="5dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="-3dp"
+                android:background="@drawable/cr21bffd95a"
+                android:orientation="vertical"
+                android:paddingHorizontal="20dp">
+
+              <com.google.android.material.imageview.ShapeableImageView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="4dp"
+                  android:src="@drawable/thumnail2"
+                  app:shapeAppearanceOverlay="@style/cr16" />
+            </LinearLayout>
+          </RelativeLayout>
+        </LinearLayout>
+
+        <!--Thumnail3 start-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginHorizontal="19dp"
+              android:layout_marginBottom="20dp"
+              android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Learn Communication Skill"
+                android:textColor="#001029"
+                android:textSize="27sp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+          </LinearLayout>
+
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginHorizontal="17dp"
+              android:layout_marginBottom="31dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/thumnail3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/cr21bffffff"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="25dp"
+                    android:paddingTop="180dp"
+                    android:paddingBottom="11dp">
+
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginBottom="12dp"
+                      android:gravity="center_vertical"
+                      android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="4dp"
+                        android:layout_weight="1"
+                        android:text="21,390 students"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10 h 26m"
+                        android:textColor="#575757"
+                        android:textSize="13sp" />
+                  </LinearLayout>
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginBottom="12dp"
+                      android:text="Boost Your Career with Powerful Speaking!"
+                      android:textColor="#001029"
+                      android:textSize="19sp" />
+
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:gravity="center_vertical"
+                      android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="1dp"
+                        android:layout_marginEnd="8dp"
+                        android:background="#575757" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Click here to talk like leader"
+                        android:textColor="#575757"
+                        android:textSize="13sp" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:layout_width="12dp"
+                        android:layout_height="18dp"
+                        android:scaleType="fitXY"
+                        android:src="@mipmap/ic_launcher" />
+                  </LinearLayout>
+                </LinearLayout>
+              </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="360dp"
+                android:layout_height="170dp"
+                android:layout_margin="5dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/cr21bffd95a"
+                android:orientation="vertical"
+                android:paddingHorizontal="20dp">
+
+              <com.google.android.material.imageview.ShapeableImageView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="4dp"
+                  android:src="@drawable/thumnail3"
+                  app:shapeAppearanceOverlay="@style/cr16" />
+            </LinearLayout>
+          </RelativeLayout>
+        </LinearLayout>
+
+      </LinearLayout>
+
+    </ScrollView>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B79552"
+        app:itemIconTint="@color/black"
+        app:itemTextColor="@color/black"
+        app:menu="@menu/bottom_nav_menu" />
+
+  </LinearLayout>
+
+
+  <com.google.android.material.navigation.NavigationView
+      android:id="@+id/nav_view"
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:layout_gravity="start"
+      app:menu="@menu/nav_menu"
+      android:visibility="visible"
+      app:headerLayout="@layout/nav_header" />
+
+</androidx.drawerlayout.widget.DrawerLayout>

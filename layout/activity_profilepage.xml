@@ -1,0 +1,323 @@
+<!-- res/layout/activity_profile.xml -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/cr45lr270ffc600fee271ffc600">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Profile Card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- User Photo -->
+                <ImageView
+                    android:id="@+id/user_photo"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="8dp"
+                    android:src="@drawable/applogo"
+                    android:background="@drawable/circle_shape"
+                    android:scaleType="centerCrop" />
+
+                <!-- Name -->
+                <TextView
+                    android:id="@+id/profileName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="John Doe"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_marginBottom="4dp"
+                    android:textColor="#333333" />
+
+                <!-- Occupation -->
+                <TextView
+                    android:id="@+id/profileOccupation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Software Developer"
+                    android:textSize="16sp"
+                    android:textColor="#666666" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Info Cards -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- Email -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/email"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="📧 Email:   "
+                        android:textSize="16sp"
+                        android:layout_marginBottom="8dp"
+                        android:textColor="#333333" />
+
+                    <TextView
+                        android:id="@+id/profileEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="16sp"
+                        android:text="email" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <!-- Phone -->
+                    <TextView
+                        android:id="@+id/phone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="📞 Phone:  "
+                        android:textSize="16sp"
+                        android:layout_marginBottom="8dp"
+                        android:textColor="#333333" />
+
+                    <TextView
+                        android:id="@+id/profilePhone"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="16sp"
+                        android:text="Phone" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <!-- Location -->
+                    <TextView
+                        android:id="@+id/location"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="📍 Location:   "
+                        android:textSize="16sp"
+                        android:textColor="#333333" />
+
+                    <TextView
+                        android:id="@+id/profileLocation"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="16sp"
+                        android:text="location" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Skills and Experience -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <!-- Skills -->
+                    <TextView
+                        android:id="@+id/skill"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="💻 Skills: "
+                        android:textSize="16sp"
+                        android:layout_marginBottom="8dp"
+                        android:textColor="#333333" />
+
+                    <TextView
+                        android:id="@+id/profileSkill"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="16sp"
+                        android:text="skill" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <!-- Experience -->
+                    <TextView
+                        android:id="@+id/experience"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="🛠️ Experience: "
+                        android:textSize="16sp"
+                        android:layout_marginBottom="8dp"
+                        android:textColor="#333333" />
+
+                    <TextView
+                        android:id="@+id/profileExperience"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="16sp"
+                        android:text="experience" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/worklink"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="WorkLink: "
+                        android:textSize="16sp"
+                        android:layout_marginBottom="8dp"
+                        android:textColor="#333333"/>
+
+                    <TextView
+                        android:id="@+id/profileWorkLink"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:text="https://yourworklink.com"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:autoLink="web"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Description -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="📝 Description"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="#333333" />
+
+                <TextView
+                    android:id="@+id/profiledescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Passionate about mobile app development."
+                    android:textSize="16sp"
+                    android:textColor="#666666" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Achievements -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/achievements"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="🏆 Achievements"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="#333333" />
+
+                <TextView
+                    android:id="@+id/profileachievements"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Developed award-winning apps."
+                    android:textSize="16sp"
+                    android:textColor="#666666" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/editBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit Profile"
+            android:textSize="20dp"
+            />
+        <Button
+            android:id="@+id/doneBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Done"
+            android:textSize="20dp"
+            />
+    </LinearLayout>
+</ScrollView>

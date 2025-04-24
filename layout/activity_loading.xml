@@ -1,0 +1,77 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rundefined_rl_rl"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/imgview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:id="@+id/rqip26pkoksj"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/cr45lr270ffc600fee271ffc600">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <!-- Updated TextView -->
+
+                    <TextView
+                        android:id="@+id/rh7ep7rvnop"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:layout_marginTop="250dp"
+                        android:text="Orbiaa"
+                        android:textSize="75sp"
+                        android:fontFamily="@font/halifax"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:id="@+id/rfq37wbg4ite"
+                        android:textColor="#000000"
+                        android:textSize="15dp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:layout_marginTop="180dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/halifax"
+                        android:text="Unlock your full potential and discover endless possibilities with Skill Swap" />
+
+                    <Button
+                        android:id="@+id/next_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Next"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginBottom="20dp" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

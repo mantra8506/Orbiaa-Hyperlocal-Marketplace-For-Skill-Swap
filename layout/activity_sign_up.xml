@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FFF8DC">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create account"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:textColor="#000000" />
+
+        <!-- title2 -->
+        <TextView
+            android:id="@+id/tvSubtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create an account and enjoy a world of learning and connections."
+            android:textSize="14sp"
+            android:textColor="#000000"
+            android:layout_marginBottom="16dp" />
+
+
+        <EditText
+            android:id="@+id/etFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="First name"
+            android:backgroundTint="#D3D3D3"
+            android:layout_marginBottom="8dp"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/etLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Last name"
+            android:backgroundTint="#D3D3D3"
+            android:layout_marginBottom="8dp"
+            android:padding="12dp" />
+
+        <!-- mobile section -->
+        <EditText
+            android:id="@+id/etmobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mobile"
+            android:inputType="phone"
+            android:backgroundTint="#D3D3D3"
+            android:layout_marginBottom="8dp"
+            android:padding="12dp" />
+
+        <!-- Email section -->
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:backgroundTint="#D3D3D3"
+            android:layout_marginBottom="8dp"
+            android:padding="12dp" />
+
+        <!-- Password -->
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:backgroundTint="#D3D3D3"
+            android:layout_marginBottom="16dp"
+            android:padding="12dp" />
+
+
+        <!-- Create Account Button -->
+        <Button
+            android:id="@+id/btnCreateAccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create Account"
+            android:background="#654321"
+            android:textColor="#FFFFFF"
+            android:padding="12dp" />
+
+        <!-- Login section-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginVertical="12dp">
+
+            <TextView
+                android:id="@+id/textlogintitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Already Have an account?"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/txtlogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
