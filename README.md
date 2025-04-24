@@ -66,7 +66,7 @@ Orbiaa/
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/yourusername/orbiaa.git
+   git clone (https://github.com/mantra8506/Orbiaa-Hyperlocal-Marketplace-For-Skill-Swap.git)
    ```
 2. Open in Android Studio.  
 3. Connect Firebase project.  
