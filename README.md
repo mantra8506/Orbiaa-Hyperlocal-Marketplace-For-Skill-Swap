@@ -70,11 +70,15 @@ Orbiaa/
    ```
 2. Open in Android Studio.  
 3. Connect Firebase project.  
+
 4. Run on emulator or real device.  
 
 ---
 
 ## 📸 Screenshots
+<img width="375" alt="Screenshot 2025-04-24 at 10 11 40 PM" src="https://github.com/user-attachments/assets/79a1eacb-349c-4a73-84b3-eca7128b6b0d" />
+<img width="375" alt="Screenshot 2025-04-23 at 10 45 54 PM" src="https://github.com/user-attachments/assets/43133d9a-f77d-4d65-9eed-31ba57e26c17" />
+<img width="370" alt="Screenshot 2025-04-23 at 10 46 03 PM" src="https://github.com/user-attachments/assets/35431264-0180-402e-9075-74ab03a3436a" />
 
 
 ---
